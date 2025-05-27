@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.conteudo-principal {
+    width: 600px;
+    font-family: "Lora", serif;
+    margin: auto;
+    text-align: justify;
+}
+
+.conteudo-livro {
+    width: 600px;
+    font-family: "Lora", serif;
+    margin: auto;
+    text-align: justify;
+}
+
+.imagens {
+    width: 280px;
+    border-radius: 20px;
+    border: 3.5px solid white;
+}
+
+
+#menu {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+
+.margem {
+    text-align: center;
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.body {
+    background-color: #fdf5e6;
+    background-color: rgba(255, 255, 240, 0.8);
+    padding: 30px;
+    border: 2px solid #aa8c55;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    margin: auto;
+}
+
+.começo {
+    width: 250px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+#color {
+    color: black;
+    text-decoration: none;
+}
+
+.imagensicon {
+    width: 40px;
+    margin: 0 10px 10px 0;
+    vertical-align: middle;
+}
+
+.margem1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rodape {
+    background-color: #aa8c55;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
