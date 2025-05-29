@@ -122,3 +122,38 @@
     border-radius: 2px;
     background-color: #aa8c55;
 }
+
+.descricao {
+    display: flex;
+    gap: 20px;
+    background-color: #aa8c55;
+    background-color: rgba(170, 140, 85, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+}
+
+.descricao:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.fotominha {
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.textomeu {
+    flex: 1;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
